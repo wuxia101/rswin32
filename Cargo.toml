@@ -1,0 +1,22 @@
+[package]
+name = "rswin32"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+anyhow = "1.0.98"
+ntapi = {version = "0.4.1", features = ["user"]}
+winapi = { version = "0.3.9", features = [
+    "powerbase",
+    "sysinfoapi",
+    "minwindef",
+    "winnt",
+    "winerror",
+    "processthreadsapi",
+    "impl-default",
+    "winbase",
+    "ntdef",
+    "ntstatus",
+    "libloaderapi",
+]}
