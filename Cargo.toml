@@ -6,8 +6,8 @@ authors = ["wuxia"]
 description = "Windows utility functions implemented by Rust"
 readme = "README.md"
 license = "Apache-2.0"
-keywords = ["winutils", "windows","utilities"]
-categories = ["utilities"]
+keywords = ["winutils", "windows"]
+categories = []
 repository = "https://github.com/wuxia101/rswin32"
 
 [dependencies]
